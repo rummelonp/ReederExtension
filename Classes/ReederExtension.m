@@ -18,6 +18,9 @@
   [class swizzleMethod:@selector(willPresentPostForm)
             withMethod:@selector(willPresentPostFormExtention)];
 
+  [class swizzleMethod:@selector(shareObjectDidShortenUrl:)
+            withMethod:@selector(shareObjectDidShortenUrlExtention:)];
+
   NSLog(@"ReederExtension loaded.");
 }
 

@@ -10,4 +10,6 @@
 
 - (void)willPresentPostFormExtention;
 
+- (void)shareObjectDidShortenUrlExtention:(id)sender;
+
 @end

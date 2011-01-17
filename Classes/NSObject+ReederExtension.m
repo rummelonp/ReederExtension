@@ -18,4 +18,9 @@
   [self performSelector:@selector(pasteLink:) withObject:nil];
 }
 
+- (void)shareObjectDidShortenUrlExtention:(id)sender
+{
+  [self shareObjectDidShortenUrlExtention:sender];
+}
+
 @end
