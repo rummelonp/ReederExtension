@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84DA13AA12E4167400400937 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA13A912E4167400400937 /* NSObject+Swizzle.m */; };
+		84DA13B212E4192C00400937 /* ReederExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA13B112E4192C00400937 /* ReederExtension.m */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -20,6 +21,8 @@
 		32DBCF630370AF2F00C91783 /* ReederExtension_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReederExtension_Prefix.pch; sourceTree = "<group>"; };
 		84DA13A812E4167400400937 /* NSObject+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Swizzle.h"; path = "Classes/NSObject+Swizzle.h"; sourceTree = "<group>"; };
 		84DA13A912E4167400400937 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzle.m"; path = "Classes/NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		84DA13B012E4192C00400937 /* ReederExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReederExtension.h; path = Classes/ReederExtension.h; sourceTree = "<group>"; };
+		84DA13B112E4192C00400937 /* ReederExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReederExtension.m; path = Classes/ReederExtension.m; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* ReederExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReederExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -70,6 +73,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				84DA13B012E4192C00400937 /* ReederExtension.h */,
+				84DA13B112E4192C00400937 /* ReederExtension.m */,
 				84DA13A812E4167400400937 /* NSObject+Swizzle.h */,
 				84DA13A912E4167400400937 /* NSObject+Swizzle.m */,
 			);
@@ -172,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA13AA12E4167400400937 /* NSObject+Swizzle.m in Sources */,
+				84DA13B212E4192C00400937 /* ReederExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
