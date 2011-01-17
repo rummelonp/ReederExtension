@@ -1,0 +1,17 @@
+== Reeder Extension
+
+A SIMBL Plugin for Reader which paste title and link when shere on twitter.
+
+== Instalation
+
+Download binary of Reeder Extension from "Download" button.
+Install SIMBL if you didn't install it yet.
+Move "ReederExtension.bundle" into "~/Library/Application Support/SIMBL/Plugins" folder.
+Restart Reeder.app.
+
+== License
+
+Copyright (c) 2011 Kazuya Takeshima
+
+Released under the WTFPL: http://sam.zoy.org/wtfpl
+
