@@ -21,6 +21,8 @@
 - (void)shareObjectDidShortenUrlExtention:(id)sender
 {
   [self shareObjectDidShortenUrlExtention:sender];
+
+  [self performSelector:@selector(addText:) withObject:@""];
 }
 
 @end
