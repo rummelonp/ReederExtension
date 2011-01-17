@@ -10,4 +10,9 @@
 
 @implementation NSObject(ReederExtension)
 
+- (void)willPresentPostFormExtention
+{
+  [self willPresentPostFormExtention];
+}
+
 @end

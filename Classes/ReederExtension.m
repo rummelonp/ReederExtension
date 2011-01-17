@@ -13,6 +13,11 @@
 
 + (void)load
 {
+  Class class = objc_getClass("ShareTwitter");
+
+  [class swizzleMethod:@selector(willPresentPostForm)
+            withMethod:@selector(willPresentPostFormExtention)];
+
   NSLog(@"ReederExtension loaded.");
 }
 

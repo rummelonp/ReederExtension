@@ -8,4 +8,6 @@
 
 @interface NSObject(ReederExtention)
 
+- (void)willPresentPostFormExtention;
+
 @end
