@@ -13,6 +13,9 @@
 - (void)willPresentPostFormExtention
 {
   [self willPresentPostFormExtention];
+
+  [self performSelector:@selector(pasteTitle:) withObject:nil];
+  [self performSelector:@selector(pasteLink:) withObject:nil];
 }
 
 @end
