@@ -16,6 +16,16 @@
 
   [self performSelector:@selector(pasteTitle:) withObject:nil];
   [self performSelector:@selector(pasteLink:) withObject:nil];
+
+  for (id cell in [self performSelector:@selector(postCells)]) {
+    if ([[cell class] isEqual:objc_getClass("ShareFormButton")]) {
+      NSButton* button = [cell performSelector:@selector(button)];
+      if (button != nil) {
+        [button setKeyEquivalent:@"m"];
+        [button setKeyEquivalentModifierMask:NSCommandKeyMask];
+      }
+    }
+  }
 }
 
 - (void)shareObjectDidShortenUrlExtention:(id)sender
